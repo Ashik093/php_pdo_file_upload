@@ -1,0 +1,8 @@
+
+Database: `db_fileupload`
+
+CREATE TABLE `tbl_file` (
+  `id` int(11) NOT NULL,
+  `name` varchar(12) NOT NULL,
+  `image` varchar(250) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
